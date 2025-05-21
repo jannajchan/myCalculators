@@ -1,9 +1,8 @@
 # myCalculators
-About My Calculators: A Python collection offering a Basic Calculator, a Financial Calculator, and a Mortgage Calculator (Flask Web UI to compute monthly loan payment, interest, and installments).
+About My Calculators App with a simple Python script to calculate monthly loan payments, interest and installment.
 
 🧠 Case Study: Building Mortgage Calculator Application in Python<br/>
-Tech used: Python, Math module, Decimal<br/>
-<br/>
+
 This project helped me learn how to build and structure a Python application. The app consists of multiple calculator classes:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;🔹 BasicCalculator()     - Handles basic arithmetic operations<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;🔹 FinancialCalculator() - Inherits from BasicCalculator, and adds financial calculation features<br/>
@@ -22,8 +21,15 @@ To publish the app on GitHub:
     git push -u origin main
 
 Deployed it to online platforms:<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;🔹 Render.com – Successfully deployed ⇒ https://my-calc-app.onrender.com<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;🔹 Railway.app – Deployment failed due to the platform's trial limitations.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;🔹 Render.com – Successfully deployed ⇒ https://mycalculators.onrender.com<br/>
+
+    Render.com : Create a free account.
+    New ➝ Web Service ➝ Connect GitHub repo.
+    Set build and start command:
+        Build Command: pip install -r requirements.txt
+        Start Command: python app.py
+    Set environment to Python 3.
 
 <hr>
 
