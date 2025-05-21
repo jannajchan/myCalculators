@@ -1,5 +1,5 @@
 # myCalculators
-About My Calculators App with a simple Python script to calculate monthly loan payments, interest and installment.
+About My Calculators: A Python collection offering a Basic Calculator, a Financial Calculator, and a Mortgage Calculator (Flask Web UI to compute monthly loan payment, interest, and installments).
 
 🧠 Case Study: Building Mortgage Calculator Application in Python<br/>
 Tech used: Python, Math module, Decimal<br/>
