@@ -1,0 +1,13 @@
+body {
+    /* font-family: 'Noto Serif Thai', 'Sans-serif'; */
+    font-size: 14px;
+}
+.btn-custom-blue {
+    background-color: #033c73;
+    color: white;
+    border: none;
+}
+.btn-custom-blue:hover {
+    background-color: #2f5881;
+    color: white;
+}
