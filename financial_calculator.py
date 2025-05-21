@@ -1,5 +1,5 @@
 from decimal import Decimal
-from .basic_calculator import BasicCalculator # Relative import
+from basic_calculator import BasicCalculator
 
 class FinancialCalculator(BasicCalculator):
     def monthly_interest(self, annual_interest_rate):

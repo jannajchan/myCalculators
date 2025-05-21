@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import pandas as pd
 from decimal import Decimal, getcontext, ROUND_HALF_EVEN
-from myCalculators.financial_calculator import FinancialCalculator # Absolute import
+from financial_calculator import FinancialCalculator
 
 # Set precision and rounding for financial accuracy
 getcontext().prec = 28
@@ -83,7 +83,7 @@ class MortgageCalculator(FinancialCalculator):
 
 """
 # -Bash (Example)------------------------------------------------------------------------------------
-# | python my-apps\myCalculators\mortgage_calculator.py --loan 300000 --rate 0.05 --years 30        |
+# | python myCalculators\mortgage_calculator.py --loan 300000 --rate 0.05 --years 30                |
 # ---------------------------------------------------------------------------------------------------
 """
 def main_cli(): # CLI = Command Line Interface

@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from flask import Flask, render_template, request, redirect, url_for
 from threading import Lock
 from decimal import Decimal, getcontext, ROUND_HALF_EVEN
-from myCalculators.mortgage_calculator import MortgageCalculator
+from mortgage_calculator import MortgageCalculator
 
 # Set precision and rounding for financial accuracy
 getcontext().prec = 28
