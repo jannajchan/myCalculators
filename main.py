@@ -6,7 +6,7 @@
     🔹 MortgageCalculator()  - Inherits from FinancialCalculator
     I also learned about types of inheritance.
 # ----------------------------------------------------------------------------------------------------------------------
-🧩 The Project structure:
+🧩 The Project structure: (I've changed the project structure)
     📁 my-apps                              ← This is the folder I'll turn into a GitHub repo
         ├── myCalculators/
         │   ├── static/
@@ -81,8 +81,8 @@ Solution 3: Restructure for Scripts (alternative)
         └── README.md
     Then in main.py do (use Absolute import):
         -python------------------------------------------------------------------------------
-        | from myCalculators.financial_calculator import FinancialCalculator               |
-        | from myCalculators.mortgage_calculator import MortgageCalculator                 |
+        | from myCalculators.financial_calculator import FinancialCalculator                |
+        | from myCalculators.mortgage_calculator import MortgageCalculator                  |
         -------------------------------------------------------------------------------------
     Run it from the root:
         -bash--------------------------------------------------------------------------------
@@ -97,6 +97,7 @@ Summary:
     |     2     | Add sys.path.append(...)          | Quick and dirty script testing        |
     |     3     | Move main.py outside              | Clean separation of code & entry      |
     -----------------------------------------------------------------------------------------
+⚠️⚠️⚠️ I've changed the project structure, so don't need to follow these solutions anymore. ⚠️⚠️⚠️
 
 # ----------------------------------------------------------------------------------------------------------------------
 🎯 Relative import VS Absolute import:
@@ -119,9 +120,10 @@ Summary:
     | What You Want                                     | How to Do It                                                      |
     -------------------------------------------------------------------------------------------------------------------------
     | Import between files inside same folder/package   | Use relative imports like from .file import Class                 |
-    | Run the app                                       | Run via python -m myCalculators.main from the parent directory   |
+    | Run the app                                       | Run via python -m myCalculators.main from the parent directory    |
     | Avoid sys.path hacking                            | Yes, when using proper package structure                          |
     -------------------------------------------------------------------------------------------------------------------------
+⚠️⚠️⚠️ I've changed the project structure, so the import may change. ⚠️⚠️⚠️
 """
 import sys
 import os

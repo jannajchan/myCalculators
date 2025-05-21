@@ -3,6 +3,26 @@ About My Calculators App with a simple Python script to calculate monthly loan p
 
 🧠 Case Study: Building Mortgage Calculator Application in Python<br/>
 
+🧩 The Project structure:  (Latest update)
+    📁 my-apps                              ← This is the folder I'll turn into a GitHub repo
+        └── myCalculators/
+            ├── static/
+            │   ├── favicon.ico
+            │   └── styles.css              ← My custom CSS
+            ├── templates/
+            │   ├── home.html               ← Welcome page
+            │   └── mortgage.html
+            ├── __init__.py
+            ├── basic_calculator.py
+            ├── financial_calculator.py
+            ├── mortgage_calculator.py
+            ├── app.py                      ← Main Flask application file
+            ├── main.py
+            ├── .gitignore                  ← (optional, but recommended)
+            ├── LICENSE
+            ├── README.md                   ← (optional, to explain the project)
+            └── requirements.txt
+
 This project helped me learn how to build and structure a Python application. The app consists of multiple calculator classes:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;🔹 BasicCalculator()     - Handles basic arithmetic operations<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;🔹 FinancialCalculator() - Inherits from BasicCalculator, and adds financial calculation features<br/>
